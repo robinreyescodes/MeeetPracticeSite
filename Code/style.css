@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sen&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(18, 49, 65);
+}
+
+.container {
+  margin: 0px 200px;
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 80px;
+  color: rgb(120, 241, 202);
+  font-family: "Sen";
+  font-size: 160px;
+  z-index: 10;
+}
+
+p {
+  color: rgb(176, 191, 199);
+  font-family: "Inter";
+  font-size: 24px;
+  width: 20em;
+}
+
+button {
+  background-color: rgb(120, 241, 202);
+  border: none;
+  border-radius: 6px;
+  width: 300px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  position: absolute;
+}
+
+.ava1 {
+  right: -8%;
+  top: 43%;
+  z-index: -1;
+}
+
+.ava2 {
+  right: 0;
+  top: 0;
+}
+
+.ava3 {
+  z-index: -1;
+  left: -10%;
+  top: 11%;
+}
+
+.ava4 {
+  right: 0;
+  top: 60%;
+}
+
+.ava5 {
+  left: 58%;
+  top: 50%;
+  z-index: 0;
+}
+
+#n {
+  position: relative;
+  z-index: 100;
+}
+
+.robin {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 5%;
+  right: 17%;
+  z-index: -1;
+}
