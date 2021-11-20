@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(18, 49, 65);
+  background-color: rgb(1, 50, 67);
 }
 
 .container {
@@ -42,6 +42,14 @@ button {
   font-weight: 600;
   margin-top: 30px;
   margin-bottom: 90px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: all ease 0.4s;
 }
 
 .twitter {
@@ -97,7 +105,94 @@ button {
   z-index: -1;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
+  .container {
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .ava2,
+  .ava5 {
+    display: none;
+  }
+  h1 {
+    font-size: 90px;
+    width: 650px;
+  }
+  .ava1 {
+    right: 10%;
+  }
+  .cont h1 {
+    margin-bottom: 60px;
+  }
+  .ava4 {
+    height: 200px;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    z-index: -1;
+  }
+  .robin {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+  }
+  .ava3 {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .ava1,
+  .ava2,
+  .ava5 {
+    display: none;
+  }
+  h1 {
+    font-size: 73px;
+    width: 450px;
+  }
+  .cont h1 {
+    margin-bottom: 60px;
+  }
+  .ava4 {
+    height: 200px;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    z-index: -1;
+  }
+  .robin {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+  }
+  .ava3 {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .container {
     margin: 0;
     padding: 10px 20px;
