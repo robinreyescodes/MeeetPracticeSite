@@ -96,3 +96,65 @@ button {
   right: 17%;
   z-index: -1;
 }
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 47px;
+    width: 300px;
+  }
+  .hero-intro {
+    font-size: 20px;
+    width: 350px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+  .cont h1 {
+    margin-bottom: 60px;
+  }
+
+  .hero-intro {
+    margin-bottom: 30px;
+  }
+  .ava3 {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    height: 100px;
+  }
+  .ava1,
+  .ava2,
+  .ava5 {
+    display: none;
+  }
+  .ava4 {
+    height: 200px;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    z-index: -1;
+  }
+  .robin {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+  }
+  .twitter {
+    padding-bottom: 10px;
+  }
+  .twitter p {
+    width: 200px;
+    font-size: 20px;
+  }
+}
